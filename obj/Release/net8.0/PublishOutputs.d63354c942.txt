@@ -1,0 +1,17 @@
+/home/sajad/raya-web/bin/Release/net8.0/publish/raya-web
+/home/sajad/raya-web/bin/Release/net8.0/publish/appsettings.Development.json
+/home/sajad/raya-web/bin/Release/net8.0/publish/appsettings.json
+/home/sajad/raya-web/bin/Release/net8.0/publish/SandBox/config.json
+/home/sajad/raya-web/bin/Release/net8.0/publish/raya-web.dll
+/home/sajad/raya-web/bin/Release/net8.0/publish/raya-web.deps.json
+/home/sajad/raya-web/bin/Release/net8.0/publish/raya-web.runtimeconfig.json
+/home/sajad/raya-web/bin/Release/net8.0/publish/raya-web.pdb
+/home/sajad/raya-web/bin/Release/net8.0/publish/BouncyCastle.Cryptography.dll
+/home/sajad/raya-web/bin/Release/net8.0/publish/MailKit.dll
+/home/sajad/raya-web/bin/Release/net8.0/publish/Microsoft.AspNetCore.OpenApi.dll
+/home/sajad/raya-web/bin/Release/net8.0/publish/Microsoft.OpenApi.dll
+/home/sajad/raya-web/bin/Release/net8.0/publish/MimeKit.dll
+/home/sajad/raya-web/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/sajad/raya-web/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/sajad/raya-web/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/sajad/raya-web/bin/Release/net8.0/publish/System.Formats.Asn1.dll

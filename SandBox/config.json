@@ -1,0 +1,9 @@
+{
+  "smtp": {
+    "SenderMail": "",
+    "SmtpServer": "",
+    "Port": 587,
+    "UserName": "",
+    "Password": ""
+  }
+}
