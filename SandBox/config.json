@@ -1,9 +1,9 @@
 {
   "smtp": {
-    "SenderMail": "",
-    "SmtpServer": "",
+    "SenderMail": "rayaniyareshkara@outlook.com",
+    "SmtpServer": "smtp.office365.com",
     "Port": 587,
-    "UserName": "",
-    "Password": ""
+    "UserName": "rayaniyareshkara@outlook.com",
+    "Password": "AH6193@fo"
   }
 }

@@ -11,7 +11,7 @@ public class FormController:ControllerBase{
      _mailHandler = mailHandler;
  }
 
- [HttpGet]
+ 
     [HttpPost]
     public async Task<IActionResult> Create(Form form){
         await _mailHandler.SendEmailAsync(new MailRequest()
@@ -127,5 +127,58 @@ public class FormController:ControllerBase{
 </table>"
         });
         return Ok(form);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Contact(Contact contact)
+    {
+           await _mailHandler.SendEmailAsync(new MailRequest()
+        {
+            Subject = "یک نفر فرم درخواست مشاوره را پر کرده است",
+            ToEmail = "sajadrahimi6633@gmail.com",
+            Body = @$"<style>
+  table {{
+    border-collapse: collapse;
+    width: 100%;
+  }}
+  th, td {{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right;
+  }}
+  th {{
+    background-color: #f0f0f0;
+  }}
+  h2{{
+      text-align:right;
+  }}
+</style>
+
+<h2>مشخصات وارد شده</h2>
+
+<table>
+  <tr>
+    <td>{contact.FirstName}</td>
+    <th>نام</th>
+  </tr>
+  <tr>
+    <td>{ contact.LastName }</td>
+    <th>نام خانوادگی</th>
+  </tr>
+  <tr>
+    <td>{ contact.PhoneNumber }</td>
+    <th>شماره تلفنr</th>
+  </tr>
+  <tr>
+    <td>{ contact.Email }</td>
+    <th>وب سایت</th>
+  </tr>
+  <tr>
+    <td>{ contact.Message }</td>
+    <th>نام شرکت</th>
+  </tr>
+</table>"
+        });
+        return Ok(contact);
     }
 }

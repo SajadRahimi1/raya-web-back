@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("raya-web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aee9a76a245d1341dd7f72a92041c6a854019fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("raya-web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("raya-web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
